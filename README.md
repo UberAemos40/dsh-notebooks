@@ -8,8 +8,19 @@ loaded through `cordis.patch.yml` (`dsh.bundle.patch` in package.json).
 ## Screenshots
 
 ![Note view](docs/screenshots/note.png)
+*Note view: table of contents on the left, rendered Markdown with syntax-highlighted code.*
 
 ![Library](docs/screenshots/library.png)
+*Library: every note in one place, with folder and search controls.*
+
+![Note actions](docs/screenshots/note-menu.png)
+*Note actions: pin to the top, open in the right panel, delete.*
+
+![Storage folder](docs/screenshots/note-folder.png)
+*Where the notes live - pick any folder, optionally moving the existing notes.*
+
+![Quote in chat](docs/screenshots/note-in-chat.png)
+*Text selected in a note can be quoted straight into the chat.*
 
 ## Install
 

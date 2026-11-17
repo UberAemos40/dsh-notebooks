@@ -5,6 +5,12 @@ Local Markdown notebooks for DeepSeek Harness: a sidebar library, right-sidebar 
 DSH bundle (DeepSeek Harness plugin). Host side in `index.js`, optional Web UI in `client.js` / `client.bundle.js`,
 loaded through `cordis.patch.yml` (`dsh.bundle.patch` in package.json).
 
+## Screenshots
+
+![Note view](docs/screenshots/note.png)
+
+![Library](docs/screenshots/library.png)
+
 ## Install
 
 In DSH, open **Plugins** and install from a git source:

@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Notebooks",
+    "description": "A local Markdown notebook library: a sidebar page listing notes, note tabs beside the chat, and agent tools that save chat summaries as .md files in one folder.",
+    "detail": "docs/DETAIL.md"
+  }
+}

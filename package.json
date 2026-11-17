@@ -1,0 +1,44 @@
+{
+  "name": "dsh-notebooks",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Local Markdown notebooks for DeepSeek Harness: a sidebar library, right-sidebar note tabs and an agent tool that saves chat summaries as .md notes.",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.bundle.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "docs",
+    "icon.svg",
+    "README.md",
+    "src/client.js",
+    "vendor",
+    "build.mjs",
+    "tools",
+    "client.bundle.js"
+  ],
+  "icon": "./icon.svg",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-slots"
+      ]
+    },
+    "manifestVersion": 1
+  },
+  "scripts": {
+    "build": "node build.mjs",
+    "bundle:highlight": "node tools/make-highlight-bundle.mjs"
+  }
+}

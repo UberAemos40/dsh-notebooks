@@ -1,0 +1,8 @@
+# dsh-notebooks bundle patch: one Host row, mounted from this package.
+#
+# The row owns the notes directory, the /notebooks/api routes the Client half
+# calls, and the agent tools (notebook_save / notebook_list / notebook_read).
+- insert:
+    - id: notebooks
+      name: 'dsh-notebooks'
+      config: {}
